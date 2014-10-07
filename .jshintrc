@@ -1,0 +1,29 @@
+{
+    "node": true,
+    "browser": true,
+    "jquery": true,
+    "eqeqeq": true,
+    "indent": 4,
+    "latedef": true,
+    "quotmark": "single",
+    "trailing": true,
+    "undef": true,
+    "unused": false,
+    "curly": true,
+    "camelcase": true,
+    "strict": true,
+    "globals": {
+        "karma": true,
+        "_": true,
+        "Backbone": true,
+        "Bloodhound": true,
+        "bowser": true,
+        "io": true,
+        "describe": false,
+        "it": false,
+        "before": false,
+        "beforeEach": false,
+        "after": false,
+        "afterEach": false
+        }
+}
