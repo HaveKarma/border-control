@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/HaveKarma/border-control",
   "dependencies": {
-    "karmashared": "git+ssh://git@github.com:HaveKarma/shared#master",
     "passport": "^0.2.1",
     "underscore": "^1.7.0"
   }
