@@ -1,6 +1,6 @@
 'use strict';
 var _ = require('underscore');
-var setupSocialSignin = require('./lib/setupSocialSignin');
+var borderControl = require('./lib/borderControl');
 
 module.exports = function(app, config, loginUtils) {
     // border-control currently expects:
@@ -10,6 +10,6 @@ module.exports = function(app, config, loginUtils) {
     // It should just be two callback functions for approve/deny
     _.each(config, function(site){
         var credentials = {};
-        setupSocialSignin(app, site, loginUtils);
+        borderControl(app, site, loginUtils);
     });
 };
