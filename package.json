@@ -1,6 +1,6 @@
 {
   "name": "border-control",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Passport Connection Manager for NodeJS",
   "main": "index.js",
   "scripts": {
